@@ -1,0 +1,1 @@
+zombiehealth = 100;
