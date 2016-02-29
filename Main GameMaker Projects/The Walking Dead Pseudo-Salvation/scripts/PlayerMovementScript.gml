@@ -1,8 +1,3 @@
-//Checks for win condition
-if(not object_exists(ZombieObject)){
-    room_goto(room_last);
-}
-
 //Set player rotation based on mouse position on screen
 playerrotation = point_direction(PlayerObject.x, PlayerObject.y, mouse_x, mouse_y); 
 PlayerObject.image_angle = playerrotation;   
@@ -90,11 +85,11 @@ if (playermovement[0] == 1){
 if (PlayerObject.x < 15){
     PlayerObject.x = 15;
 }
-if (PlayerObject.x > 985){
-    PlayerObject.x = 985;
+if (PlayerObject.x > 9985){
+    PlayerObject.x = 9985;
 }
-if (PlayerObject.y > 985){
-    PlayerObject.y = 985;
+if (PlayerObject.y > 9985){
+    PlayerObject.y = 9985;
 }
 if (PlayerObject.y < 15){
     PlayerObject.y = 15;

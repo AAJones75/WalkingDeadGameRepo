@@ -1,1 +1,1 @@
-zombiehealth = 100;
+zombiehealth = irandom(100);

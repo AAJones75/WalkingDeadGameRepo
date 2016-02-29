@@ -41,20 +41,21 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="StartButtonObject" x="85" y="373" name="inst_DC843C25" locked="0" code="" scaleX="1.19000005722046" scaleY="1.32000005245209" colour="4294967295" rotation="0"/>
-    <instance objName="InstructionsButtonObject" x="255" y="436" name="inst_449FF3CB" locked="0" code="" scaleX="2.5699999332428" scaleY="1.83333337306976" colour="4294967295" rotation="0"/>
-    <instance objName="QuitButtonObject" x="100" y="503" name="inst_DF6E2B2D" locked="0" code="" scaleX="0.930000007152557" scaleY="1.67999994754791" colour="4294967295" rotation="0"/>
-    <instance objName="AboutButtonObject" x="318" y="577" name="inst_6F25FDC9" locked="0" code="" scaleX="1.25999999046326" scaleY="1.67999994754791" colour="4294967295" rotation="0"/>
+    <instance objName="StartButtonObject" x="71" y="367" name="inst_5486725D" locked="0" code="" scaleX="0.404011458158493" scaleY="0.297297298908234" colour="4294967295" rotation="0"/>
+    <instance objName="QuitButtonObject" x="85" y="500" name="inst_B3B68E1B" locked="0" code="" scaleX="0.328571438789368" scaleY="0.317880809307098" colour="4294967295" rotation="0"/>
+    <instance objName="AboutButtonObject" x="311" y="569" name="inst_46BD1967" locked="0" code="" scaleX="0.401709407567978" scaleY="0.353333324193954" colour="4294967295" rotation="0"/>
+    <instance objName="InstructionsButtonObject" x="242" y="423" name="inst_45F48527" locked="0" code="" scaleX="0.782234966754913" scaleY="0.429530203342438" colour="4294967295" rotation="0"/>
+    <instance objName="MenuSoundObject" x="310" y="97" name="inst_408769A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

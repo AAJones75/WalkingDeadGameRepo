@@ -9,3 +9,5 @@ playerspeed = 7;
 lastbullet = 0;
 //Sets minimum number of time before next bullet is fired
 firespeed = .1;
+//Health of player 
+playerhealth = 5;

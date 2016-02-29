@@ -48,47 +48,60 @@
       <sprite>sprites\Tree5Sprite</sprite>
     </sprites>
     <sprite>sprites\MenuSprite</sprite>
+    <sprite>sprites\InstructionsSprite</sprite>
+    <sprite>sprites\PauseSprite</sprite>
+    <sprite>sprites\MissionCompleteSprite</sprite>
+    <sprite>sprites\GameOverSprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\GrasslandsBackground</background>
-    <background>background\HouseBackground</background>
-    <background>background\PlainlandsBackground</background>
-    <background>background\GameOverBackground</background>
-    <background>background\InstructionsBackground</background>
     <background>background\MainMenuBackground</background>
     <background>background\MissionCompleteBackground</background>
     <background>background\PauseBackground</background>
+    <background>background\PlainlandsBackground</background>
+    <background>background\GameOverBackground</background>
+    <background>background\HouseBackground</background>
+    <background>background\InstructionsBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\PlayerMovementScript.gml</script>
     <script>scripts\PlayerInstanciateScriptt.gml</script>
-    <script>scripts\BulletInstanciateScript.gml</script>
+    <script>scripts\PlayerMovementScript.gml</script>
     <script>scripts\PlayerMovementSetScript.gml</script>
-    <script>scripts\ZombieScript.gml</script>
     <script>scripts\ZombieInstanciateScript.gml</script>
-    <script>scripts\MenuStript.gml</script>
+    <script>scripts\ZombieScript.gml</script>
+    <script>scripts\BulletInstanciateScript.gml</script>
+    <script>scripts\MenuScript.gml</script>
+    <script>scripts\Mission1InstanciateScript.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\PlayerObject</object>
-    <object>objects\BushObject</object>
-    <object>objects\BulletObject</object>
-    <object>objects\WallObject</object>
-    <object>objects\ZombieObject</object>
-    <object>objects\Tree4Object</object>
-    <object>objects\Tree5Object</object>
-    <object>objects\Building1Object</object>
-    <object>objects\DoorwayObject</object>
+    <object>objects\QuitButtonObject</object>
+    <object>objects\StartButtonObject</object>
     <object>objects\Tree1Object</object>
     <object>objects\Tree2Object</object>
     <object>objects\Tree3Object</object>
-    <object>objects\StartButtonObject</object>
-    <object>objects\InstructionsButtonObject</object>
-    <object>objects\QuitButtonObject</object>
+    <object>objects\Tree4Object</object>
+    <object>objects\Tree5Object</object>
+    <object>objects\WallObject</object>
+    <object>objects\ZombieObject</object>
     <object>objects\AboutButtonObject</object>
-    <object>objects\BackMMButtonObject</object>
-    <object>objects\BackInstructionsButtonObject</object>
     <object>objects\BackAboutButtonObject</object>
+    <object>objects\BackButtonObject</object>
+    <object>objects\BackPausedButtonObject</object>
+    <object>objects\BackInstructionsButtonObject</object>
+    <object>objects\BackMMButtonObject</object>
+    <object>objects\Building1Object</object>
+    <object>objects\BulletObject</object>
+    <object>objects\BushObject</object>
+    <object>objects\DoorwayObject</object>
+    <object>objects\InstructionsButtonObject</object>
+    <object>objects\MenuSoundObject</object>
+    <object>objects\InstructionsObject</object>
+    <object>objects\GameControlObject</object>
+    <object>objects\PauseScreenObject</object>
+    <object>objects\MissionCompleteObject</object>
+    <object>objects\GameOverObject</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenuRoom</room>
