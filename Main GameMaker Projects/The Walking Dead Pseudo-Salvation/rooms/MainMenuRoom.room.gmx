@@ -52,6 +52,9 @@
   </views>
   <instances>
     <instance objName="StartButtonObject" x="85" y="373" name="inst_DC843C25" locked="0" code="" scaleX="1.19000005722046" scaleY="1.32000005245209" colour="4294967295" rotation="0"/>
+    <instance objName="InstructionsButtonObject" x="255" y="436" name="inst_449FF3CB" locked="0" code="" scaleX="2.5699999332428" scaleY="1.83333337306976" colour="4294967295" rotation="0"/>
+    <instance objName="QuitButtonObject" x="100" y="503" name="inst_DF6E2B2D" locked="0" code="" scaleX="0.930000007152557" scaleY="1.67999994754791" colour="4294967295" rotation="0"/>
+    <instance objName="AboutButtonObject" x="318" y="577" name="inst_6F25FDC9" locked="0" code="" scaleX="1.25999999046326" scaleY="1.67999994754791" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

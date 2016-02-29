@@ -86,12 +86,13 @@
     <object>objects\InstructionsButtonObject</object>
     <object>objects\QuitButtonObject</object>
     <object>objects\AboutButtonObject</object>
-    <object>objects\BackButtonObject</object>
+    <object>objects\BackMMButtonObject</object>
+    <object>objects\BackInstructionsButtonObject</object>
+    <object>objects\BackAboutButtonObject</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenuRoom</room>
     <room>rooms\Mission1Room</room>
-    <room>rooms\GameWinRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
