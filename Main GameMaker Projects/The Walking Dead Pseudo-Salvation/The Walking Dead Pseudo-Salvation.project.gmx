@@ -5,7 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\LevelStartSound</sound>
+    <sound>sound\MenuSound</sound>
     <sound>sound\Mission1Sound</sound>
+    <sound>sound\Mission2Sound</sound>
+    <sound>sound\MissionHolderSound</sound>
+    <sound>sound\RifleSound</sound>
+    <sound>sound\WalkingSound</sound>
+    <sound>sound\ZombieDamagedSound</sound>
+    <sound>sound\ZombieMoanSound</sound>
+    <sound>sound\DamageTakenSound</sound>
+    <sound>sound\GameOverSound</sound>
+    <sound>sound\ItemPickUpSound</sound>
+    <sound>sound\LevelCompleteSound</sound>
+    <sound>sound\MenuItemSelect</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="PlayerSprites">
@@ -37,6 +50,8 @@
   </sprites>
   <backgrounds name="background">
     <background>background\GrasslandsBackground</background>
+    <background>background\HouseBackground</background>
+    <background>background\PlainlandsBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
