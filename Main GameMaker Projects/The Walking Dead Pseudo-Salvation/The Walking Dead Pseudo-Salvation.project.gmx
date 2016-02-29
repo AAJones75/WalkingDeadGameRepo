@@ -47,11 +47,17 @@
       <sprite>sprites\Tree4Sprite</sprite>
       <sprite>sprites\Tree5Sprite</sprite>
     </sprites>
+    <sprite>sprites\MenuSprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\GrasslandsBackground</background>
     <background>background\HouseBackground</background>
     <background>background\PlainlandsBackground</background>
+    <background>background\GameOverBackground</background>
+    <background>background\InstructionsBackground</background>
+    <background>background\MainMenuBackground</background>
+    <background>background\MissionCompleteBackground</background>
+    <background>background\PauseBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -61,6 +67,7 @@
     <script>scripts\PlayerMovementSetScript.gml</script>
     <script>scripts\ZombieScript.gml</script>
     <script>scripts\ZombieInstanciateScript.gml</script>
+    <script>scripts\MenuStript.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\PlayerObject</object>
@@ -75,8 +82,14 @@
     <object>objects\Tree1Object</object>
     <object>objects\Tree2Object</object>
     <object>objects\Tree3Object</object>
+    <object>objects\StartButtonObject</object>
+    <object>objects\InstructionsButtonObject</object>
+    <object>objects\QuitButtonObject</object>
+    <object>objects\AboutButtonObject</object>
+    <object>objects\BackButtonObject</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\MainMenuRoom</room>
     <room>rooms\Mission1Room</room>
     <room>rooms\GameWinRoom</room>
   </rooms>
