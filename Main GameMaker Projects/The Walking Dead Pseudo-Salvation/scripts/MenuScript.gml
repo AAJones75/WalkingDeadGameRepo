@@ -4,8 +4,8 @@
 switch(argument0){
     //Start
     case 0:
-        audio_play_sound(LevelStartSound, 1, false);
         audio_play_sound(Mission1Sound, 0, true);
+        audio_play_sound(NatureSound, 0, true);
         audio_stop_sound(MenuSound);
         room_goto(1);
         break;
@@ -23,7 +23,8 @@ switch(argument0){
     //About
     case 3:
         audio_play_sound(MenuItemSelect, 1, false);
-        //overlay about screen
+        instance_create(view_xview, view_yview, AboutScreenObject);
+        instance_create(view_xview+675, view_yview+670, BackAboutButtonObject);
         break;
     //Back to Main Menu
     case 4:
@@ -45,7 +46,12 @@ switch(argument0){
     //About Back
     case 6:
         audio_play_sound(MenuItemSelect, 1, false);
-        //remove about screen
+        with(AboutScreenObject){
+            instance_destroy();
+        }
+        with(BackAboutButtonObject){
+            instance_destroy();
+        }
         break;
     //Paused Back
     case 7:

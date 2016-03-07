@@ -85,12 +85,16 @@ if (playermovement[0] == 1){
 if (PlayerObject.x < 15){
     PlayerObject.x = 15;
 }
-if (PlayerObject.x > 9985){
-    PlayerObject.x = 9985;
+if (PlayerObject.x > 4985 * room){
+    PlayerObject.x = 4985 * room;
 }
-if (PlayerObject.y > 9985){
-    PlayerObject.y = 9985;
+if (PlayerObject.y > 4985 * room){
+    PlayerObject.y = 4985 * room;
 }
 if (PlayerObject.y < 15){
     PlayerObject.y = 15;
+}
+
+if (GameControlObject.gamepaused = 1){
+    motion_set(0,0);
 }

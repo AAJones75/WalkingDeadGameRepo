@@ -6,3 +6,7 @@ if (GameControlObject.gamepaused = 0){
         audio_play_sound(ZombieMoanSound, 0, false);
     }
 }
+
+//Image towards player
+direction = point_direction(x,y, PlayerObject.x, PlayerObject.y);
+    image_angle = direction; 

@@ -19,6 +19,8 @@
     <sound>sound\ItemPickUpSound</sound>
     <sound>sound\LevelCompleteSound</sound>
     <sound>sound\MenuItemSelect</sound>
+    <sound>sound\OceanWavesSound</sound>
+    <sound>sound\NatureSound</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="PlayerSprites">
@@ -52,16 +54,19 @@
     <sprite>sprites\PauseSprite</sprite>
     <sprite>sprites\MissionCompleteSprite</sprite>
     <sprite>sprites\GameOverSprite</sprite>
+    <sprite>sprites\AboutScreenSprite</sprite>
+    <sprite>sprites\StoryScreen1</sprite>
+    <sprite>sprites\StoryScreen2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\GrasslandsBackground</background>
     <background>background\MainMenuBackground</background>
     <background>background\MissionCompleteBackground</background>
     <background>background\PauseBackground</background>
-    <background>background\PlainlandsBackground</background>
     <background>background\GameOverBackground</background>
     <background>background\HouseBackground</background>
     <background>background\InstructionsBackground</background>
+    <background>background\PlainlandsBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -73,6 +78,7 @@
     <script>scripts\BulletInstanciateScript.gml</script>
     <script>scripts\MenuScript.gml</script>
     <script>scripts\Mission1InstanciateScript.gml</script>
+    <script>scripts\Mission2InstanciateScript.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\PlayerObject</object>
@@ -102,10 +108,14 @@
     <object>objects\PauseScreenObject</object>
     <object>objects\MissionCompleteObject</object>
     <object>objects\GameOverObject</object>
+    <object>objects\AboutScreenObject</object>
+    <object>objects\StoryScreen1Object</object>
+    <object>objects\StoryScreen2Object</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenuRoom</room>
     <room>rooms\Mission1Room</room>
+    <room>rooms\Mission2Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
