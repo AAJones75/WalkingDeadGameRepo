@@ -21,6 +21,12 @@
     <sound>sound\MenuItemSelect</sound>
     <sound>sound\OceanWavesSound</sound>
     <sound>sound\NatureSound</sound>
+    <sound>sound\Voice2Sound</sound>
+    <sound>sound\Voice3Sound</sound>
+    <sound>sound\Voice4Sound</sound>
+    <sound>sound\Voice5Sound</sound>
+    <sound>sound\Voice6Sound</sound>
+    <sound>sound\Voice1Sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="PlayerSprites">
@@ -57,6 +63,10 @@
     <sprite>sprites\AboutScreenSprite</sprite>
     <sprite>sprites\StoryScreen1</sprite>
     <sprite>sprites\StoryScreen2</sprite>
+    <sprite>sprites\UIBackgroundSprite</sprite>
+    <sprite>sprites\WaterSprite</sprite>
+    <sprite>sprites\FoodSprite</sprite>
+    <sprite>sprites\PistolAmmoSprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\GrasslandsBackground</background>
@@ -79,6 +89,8 @@
     <script>scripts\MenuScript.gml</script>
     <script>scripts\Mission1InstanciateScript.gml</script>
     <script>scripts\Mission2InstanciateScript.gml</script>
+    <script>scripts\HUDScript.gml</script>
+    <script>scripts\PlayerDeathScript.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\PlayerObject</object>
@@ -111,6 +123,10 @@
     <object>objects\AboutScreenObject</object>
     <object>objects\StoryScreen1Object</object>
     <object>objects\StoryScreen2Object</object>
+    <object>objects\WaterObject</object>
+    <object>objects\FoodObject</object>
+    <object>objects\PistolAmmoObject</object>
+    <object>objects\UIObject</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenuRoom</room>

@@ -1,0 +1,17 @@
+PlayerObject.playerhealth = 5;
+PlayerObject.playerfood = 10;
+PlayerObject.playerwater = 10;
+PlayerObject.x = 0;
+PlayerObject.y = 0;
+PlayerObject.playermovement[0] = 0;
+PlayerObject.playermovement[1] = 0;
+PlayerObject.playermovement[2] = 0;
+PlayerObject.playermovement[3] = 0;
+GameControlObject.gamepaused = 1;
+instance_create(0, 0, GameOverObject);
+alarm[1] = 90;
+audio_play_sound(GameOverSound, 0, false);
+audio_stop_sound(Mission1Sound);
+audio_stop_sound(Mission2Sound);
+audio_stop_sound(OceanWavesSound);
+audio_stop_sound(NatureSound);

@@ -98,3 +98,15 @@ if (PlayerObject.y < 15){
 if (GameControlObject.gamepaused = 1){
     motion_set(0,0);
 }
+
+if (playerfood > 10){
+    playerfood = 10;
+}
+
+if (playerwater > 10){
+    playerwater = 10;
+}
+
+if (playerammo > 100){
+    playerammo = 100;
+}

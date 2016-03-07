@@ -11,3 +11,21 @@ lastbullet = 0;
 firespeed = .1;
 //Health of player 
 playerhealth = 5;
+//Ammo of player
+if (room == 1){
+    playerammo = 100;
+}else{
+    playerammo = 50;
+}
+//Hunger of player
+if (room == 1){
+    playerfood = 10;
+}else{
+    playerfood = 5;
+}
+//Thirst of player
+if (room == 1){
+    playerwater = 10;
+}else{
+    playerwater = 5;
+}
